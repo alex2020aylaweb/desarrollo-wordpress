@@ -1,0 +1,361 @@
+# Translation of Themes - Bootstrap Basic in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Bootstrap Basic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-14 12:22:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Bootstrap Basic\n"
+
+#. Description of the theme
+msgid "Bootstrap v.3 basic theme for developers to build their new theme very fast and easy. You can support theme author by <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9HQE4GVV4KTZE\" target=\"donate\">donate</a>. To follow what was changed, please look for <a href=\"https://github.com/Rundiz-WP/bootstrap-basic\" target=\"commits\">commits</a> of this theme at Github or changelog.md file that come with the theme."
+msgstr "Tema básico de Bootstrap v.3 para que los desarrolladores construyan su nuevo tema de forma rápida y sencilla. Puedes apoyar al autor del tema <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9HQE4GVV4KTZE\" target=\"donate\">haciendo una donación</a>. Para seguir los cambios, por favor busca <a href=\"https://github.com/Rundiz-WP/bootstrap-basic\" target=\"commits\">los commits</a> de este tema en Github o en el archivo changelog.md que viene con el tema."
+
+#. Theme Name of the theme
+msgid "Bootstrap Basic"
+msgstr "Bootstrap Basic"
+
+#: inc/views/BootstrapBasicAdminHelp_v.php:22
+msgid "You can also see it on changelog.md file that come with the theme."
+msgstr "También puedes verlo en el archivo changelog.md que viene con el tema."
+
+#. translators: %1$s: Open link, %2$s: Close link
+#: inc/views/BootstrapBasicAdminHelp_v.php:20
+msgid "You can see what was changed in each version or each commits on our %1$sGithub page%2$s."
+msgstr "Puedes ver lo que se cambió en cada versión o en cada commit en nuestra página %1$sGithub%2$s."
+
+#: inc/views/BootstrapBasicAdminHelp_v.php:16
+msgid "Bootstrap Basic Change log"
+msgstr "Registro de cambios de Bootstrap Basic"
+
+#: functions.php:122
+msgid "Header widget area on the right side next to site title."
+msgstr "Área del widget en el encabezado en el lado derecho junto al título del sitio."
+
+#: comments.php:126
+msgid "Comment"
+msgstr "Comentario"
+
+#: inc/BootstrapBasicAdminHelp.php:10
+msgid "Bootstrap Basic help"
+msgstr "Ayuda de Bootstrap Basic"
+
+#: searchform.php:9
+msgctxt "label"
+msgid "Search for"
+msgstr "Buscar"
+
+#. translators: %s Search value.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda para: %s"
+
+#: no-results.php:23
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no encontramos lo que estás intentando localizar. Es posible que te ayude buscarlo."
+
+#: no-results.php:20
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento pero no hay nada que se ajuste a tus criterios de búsqueda. Por favor, inténtalo de nuevo con palabras claves distintas."
+
+#. translators: %1$s: Link to add new post.
+#: no-results.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: no-results.php:10
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: searchform.php:11 inc/widgets/BootstrapBasicSearchWidget.php:98
+msgctxt "label"
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: inc/widgets/BootstrapBasicSearchWidget.php:47
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/widgets/BootstrapBasicSearchWidget.php:46
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/widgets/BootstrapBasicSearchWidget.php:44
+msgid "Form alignment:"
+msgstr "Alineación del formulario:"
+
+#: inc/widgets/BootstrapBasicSearchWidget.php:22
+msgid "Display Search widget for Bootstrap navbar."
+msgstr "Mostrar widget de búsqueda de Bootstrap en la barra de navegación."
+
+#: inc/widgets/BootstrapBasicSearchWidget.php:21
+msgid "Bootstrap Navbar Search"
+msgstr "Búsqueda de Bootstrap en  la barra de navegación"
+
+#: inc/template-tags.php:309
+msgid "Tagged"
+msgstr "Etiquetado"
+
+#. translators: %s Author name.
+#: inc/template-tags.php:292
+msgid "View all posts by %s"
+msgstr "Ver todas las entradas de %s"
+
+#. translators: %1$s: Link to post with date/time text, %2$s: Link to author
+#. with auth name.
+#: inc/template-tags.php:283
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Publicada en %1$s</span><span class=\"byline\"> por %2$s</span>"
+
+#: inc/template-tags.php:209
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Sigue leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:113
+msgid "Log in to Reply"
+msgstr "Inicia sesión para responder"
+
+#: inc/template-tags.php:112
+msgid "Reply"
+msgstr "Responder"
+
+#. translators: %s: Comment author link.
+#: inc/template-tags.php:100
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dijo:</span>"
+
+#: inc/template-tags.php:94
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#. translators: %1$s: Comment date, %2$s: Comment time.
+#: inc/template-tags.php:80
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#: inc/template-tags.php:45 inc/template-tags.php:87 inc/template-tags.php:150
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/template-tags.php:43
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:18
+msgid "Posted in"
+msgstr "Publicado en"
+
+#. translators: %s: Page number.
+#: inc/extras.php:138
+msgid "Page %s"
+msgstr "Página %s"
+
+#: image.php:44
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Siguiente <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:43
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Anterior"
+
+#. translators: %1$s: Date/time in datetime attribute, %2$s: Readable
+#. date/time, %3$s: URL, %4$s: Attachment width, %5$s: Attachment height, %6$s:
+#. Link to post parent, %7$s: Post parent title in the title attribute, %8$s:
+#. Post parent title.
+#: image.php:25
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> en <a href=\"%3$s\" title=\"Enlace a la imagen original\">%4$s &times; %5$s</a> en <a href=\"%6$s\" title=\"Volver a %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: header.php:65
+msgid "Toggle navigation"
+msgstr "Cambiar navegación"
+
+#: header.php:49
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: functions.php:148
+msgid "Footer right"
+msgstr "Footer Right"
+
+#: functions.php:139
+msgid "Footer left"
+msgstr "Footer Left"
+
+#: functions.php:102
+msgid "Sidebar right"
+msgstr "Barra lateral derecha"
+
+#: functions.php:111
+msgid "Sidebar left"
+msgstr "Barra lateral izquierda"
+
+#: functions.php:130
+msgid "Navigation bar right"
+msgstr "Barra de navegación derecha"
+
+#: functions.php:120
+msgid "Header right"
+msgstr "Cabecera derecha"
+
+#: functions.php:59
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#. translators: %s Bootstrap Basic with link.
+#: footer.php:21
+msgid "Theme: %s"
+msgstr "Tema: %s"
+
+#. translators: %s WordPress with link.
+#: footer.php:18
+msgid "Powered by %s"
+msgstr "Funciona gracias a %s"
+
+#. translators: %1$s URL, %2$s: Post title.
+#: content-single.php:41
+msgid "<span class=\"glyphicon glyphicon-link\"></span> <a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>."
+msgstr "<span class=\"glyphicon glyphicon-link\"></span> <a href=\"%1$s\" title=\"Enlace a %2$s\" rel=\"bookmark\">enlace permanente</a>."
+
+#. translators: used between list items, there is a space after the comma
+#: content-link.php:43 content-link.php:53 content.php:42 content.php:52
+#: content-single.php:29 content-single.php:32 content-quote.php:30
+#: content-quote.php:40 content-aside.php:33 content-aside.php:43
+msgid ", "
+msgstr ", "
+
+#: content-link.php:30 content.php:28 content-single.php:19
+#: content-quote.php:18 content-aside.php:18 content-page.php:15
+msgid "Pages:"
+msgstr "Páginas:"
+
+#. translators: %s Allowed HTML tags for comment.
+#: comments.php:133
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Puedes usar las siguientes etiquetas y atributos <abbr title=\"HyperText Markup Language\">HTML</abbr>: %s"
+
+#: comments.php:119
+msgid "Website"
+msgstr "Web"
+
+#: comments.php:113
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: comments.php:107
+msgid "Name"
+msgstr "Nombre"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:39 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios más recientes &rarr;"
+
+#: comments.php:38 comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios más antiguos"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#. translators: %1$s: Number of comments, %2$s: Post title.
+#: comments.php:22
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en  &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: archive.php:70
+msgid "Archives"
+msgstr "Archivo"
+
+#: archive.php:67
+msgid "Links"
+msgstr "Enlaces"
+
+#: archive.php:64
+msgid "Quotes"
+msgstr "Citas"
+
+#: archive.php:61
+msgid "Videos"
+msgstr "Vídeos"
+
+#: archive.php:58
+msgid "Images"
+msgstr "Imágenes"
+
+#: archive.php:55
+msgid "Asides"
+msgstr "Minientradas"
+
+#. translators: %s Year value.
+#: archive.php:52
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#. translators: %s Month value.
+#: archive.php:48
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#. translators: %s Date value.
+#: archive.php:44
+msgid "Day: %s"
+msgstr "Día: %s"
+
+#. translators: %s Author name.
+#: archive.php:35
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:48
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Trata de buscar en los archivos mensuales. %1$s"
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "Categorías más usadas"
+
+#: 404.php:20 searchform.php:13 inc/widgets/BootstrapBasicSearchWidget.php:101
+#: inc/template-tags.php:172
+msgid "Search"
+msgstr "Buscar"
+
+#: 404.php:17 inc/template-tags.php:169
+msgctxt "label"
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
+
+#: 404.php:17 searchform.php:11 inc/widgets/BootstrapBasicSearchWidget.php:98
+#: inc/template-tags.php:169
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
+
+#: 404.php:11
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se encontró nada aquí. ¿Quieres probar uno de los enlaces de abajo o una búsqueda?"
+
+#: 404.php:7
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! Está página no se encuentra."
+
+#. Theme URI of the theme
+msgid "https://rundiz.com"
+msgstr "https://rundiz.com"
+
+#. Author of the theme
+msgid "Vee Winch"
+msgstr "Vee Winch"

@@ -1,0 +1,32 @@
+# Translation of Themes - Newsbulk in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Newsbulk package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-11 08:25:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Newsbulk\n"
+
+#: frontpage-options.php:48
+msgid "Category"
+msgstr "Categoría"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: header.php:68
+msgid "Toggle navigation"
+msgstr "Alternar la navegación"
+
+#: frontpage-options.php:49
+msgid "Posts to be shown on recent 4 Post"
+msgstr "Entradas a mostrar en las 4 entradas recientes"
+
+#: frontpage-options.php:27
+msgid "Recent Post Section"
+msgstr "Sección de entradas recientes"
