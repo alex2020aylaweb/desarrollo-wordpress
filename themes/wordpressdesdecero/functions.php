@@ -13,7 +13,7 @@ array(
 add_action('init','agregar_menus');
 
 // 3 function mostrar menu
-function mostrar_menu(){
+function mostrar_menu_principal(){
 wp_nav_menu([
     'theme_location'=>'principal',
     'container'=>'ul',
@@ -25,7 +25,7 @@ wp_nav_menu([
 }
 
 // 4 function mostrar menu para la cantidad de  menus que queramos poner
-function mostrar_footer(){
+function mostrar_menu_footer(){
     wp_nav_menu([
         'theme_location'=>'footer',
         'container'=>'ul',
@@ -78,17 +78,12 @@ add_theme_support( 'post-thumbnails' );
 
 // hacemos un shortcode que es un id que damos a una parte del código o una imagen
 
-function firma_guay(){
-    return ' Soy Jose ';}
-    add_shortcode('firma','firma_guay');
 
 
 
 
-function shortcode_redes() {
-    return '<p>Gracias por llegar al final. Si te ha gustado, comparte ;)</p>';
-    }
-    add_shortcode('redes', 'shortcode_redes');
+
+
 
 
 // Este archivo es para las funciones específicas del tema.
@@ -163,27 +158,22 @@ add_action( 'widgets_init', 'agregar_widgets' );
 
 
 
-wp_register_style(
-    'bootstrap', // nombre
-    // get_theme_file_uri( 'css/bootstrap.min.css' ), // URL
-    get_theme_file_uri().'/inc/bootstrap.min.css');
+wp_register_style('bootstrap', get_theme_file_uri().'/inc/bootstrap.min.css');
   
 
 wp_register_style(
-    'dw-style',get_stylesheet_uri(),['bootstrap']);
+    'dw_style',get_stylesheet_uri(),['bootstrap']);
 
 
 // encolamos
 function encolar_estilos(){
-    ('wp_enqueue_scripts,encolar_estilos');
+    wp_enqueue_style('dw_style');
 }
 
-// ponerlos en cola
 
-wp_enqueue_style( 'dw-style' );
 
 // accion de cuando queremos que esto se cargue el HOOK
-add_action('wp_enqueue_scripts','wp_style');
+add_action('wp_enqueue_scripts','encolar_estilos');
 
 
 

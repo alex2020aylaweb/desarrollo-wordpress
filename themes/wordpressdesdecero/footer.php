@@ -26,7 +26,7 @@
   <p>&copy; Company 2017-2020 </p>
 
 
-<?php wp_nav_menu( array( 'footer' => 'footer-menu' ) ); 
+<?php mostrar_menu_footer(); 
 ?>
 
 <?php wp_footer() ?>

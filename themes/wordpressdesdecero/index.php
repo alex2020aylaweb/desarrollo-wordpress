@@ -1,5 +1,5 @@
 <?php get_header() ?>
-<!-- get_header('sinjumbron') header-sinjumbotron.php -->
+
 
   <div class="container">
     <!-- Example row of columns -->
